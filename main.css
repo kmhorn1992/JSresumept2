@@ -2,15 +2,18 @@ body{
     background-color: darkblue;
 
 }
-h1{
+h3{
     color: white;
     text-align: center;
+    font-size: 24px;
 }
 
 .friend{
     background-color: lightslategray;
     text-align: center;
     text-transform: uppercase;
+    border-color: white;
+    border-radius: 3px;
 
 
 }

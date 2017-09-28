@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
             fransDiv.className = 'friend';
             document.body.appendChild(fransDiv);
             var fransHeading = document.createElement('h3');
+            fransDiv.appendChild(fransHeading);
             var fransName = document.createTextNode(friends[k]);
             fransHeading.appendChild(fransName);
 
